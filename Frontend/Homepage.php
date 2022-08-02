@@ -12,9 +12,11 @@
   <?php
   include("./Components/Navbar.php"); 
   ?>
-  <!-- <?php
+
+
+  <?php
   include("./Components/footer.php"); 
-  ?> -->
+  ?> 
     
 
     
