@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.98.0">
-    <title>Wi-Fi Publication | Log-In</title>
+    <title>Wi-Fi Publication | Sign Up</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
@@ -78,27 +78,29 @@
   </head>
   <body class="r">
     
-<main class="form-signin w-100 m-auto">
-  <form class="col-sm-3 ms-auto me-auto mt-5 p-3 shadow ">
+<main class="form-signin w-100 m-auto"> 
+  <form class="col-sm-3 ms-auto me-auto mt-5 p-3 shadow " >
     <div class="ms-5 ">
     <img class="mb-4 mt-5 " src="../images/logo.png" alt="" height="30">
     </div>
     <!-- <h1 class="h4 mb-3  fw-bold mb-4 text-center">Hey Welcome Back !!!</h1> -->
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Enter Your Name">
+      <label for="floatingInput">Name</label>
+    </div>
 
     <div class="form-floating mb-3">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating mb-3">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
       <label for="floatingPassword">Password</label>
     </div>
 
-   <div class="d-flex " style="font-size:12px;"><p class="">New To Wi-Fi Publication?&nbsp;</p><a href="./signup.php" class="text-decoration-none" style="color:#0cc5cd;">Sign Up</a> </div>
-
-
-    <button class="w-100 btn btn-lg text-light" style="background-color:#0cc5cd;" type="submit">Sign in</button>
-    <p class="mt-5 mb-3  text-center " style="color:#0cc5cd;"><i class="fa-solid fa-arrow-left"></i> <a href="http://localhost/E-book-project/Frontend/Homepage.php?" class="text-decoration-none"  style="font-size:12px; color:#0cc5cd;">  Back To Home</a></p>
+   <div class="d-flex " style="font-size:12px;"><p class="">Already Have Account?&nbsp;</p> <a href="login.php" class="text-decoration-none" style="color:#0cc5cd;">Login</a> </div>
+    <button class="w-100 btn btn-lg text-light" style="background-color:#0cc5cd;" type="submit">Sign Up</button>
+    <p class="mt-5 mb-3  text-center " style="color:#0cc5cd;"><i class="fa-solid fa-arrow-left "></i> <a href="http://localhost/E-book-project/Frontend/Homepage.php?" class="text-decoration-none"  style="font-size:12px; color:#0cc5cd;">  Back To Home</a></p>
   </form>
 </main>
 
