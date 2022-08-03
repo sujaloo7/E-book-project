@@ -55,7 +55,7 @@ a {
 }
 .signup-container {
   width: 100vw;
-  padding: 10rem 10rem;
+  padding: 5rem ;
   align-items: flex-start;
   justify-content: flex-start;
 
@@ -73,7 +73,7 @@ a {
 .input-text {
   font-family: inherit;
   font-size: 1.8rem;
-  padding: 3rem 5rem 1rem 2rem;
+  padding: 2rem 3rem 1rem 1rem;
   border: none;
   border-radius: 2rem;
   background: #eee;
@@ -127,7 +127,7 @@ a {
   left: 2rem;
   color: #00000070;
   font-weight: 500;
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
 
   transition: all 0.2s;
   transform-origin: left;
@@ -321,7 +321,7 @@ a {
 </select>
        
       <label class="inp">
-        <input type="number" class="input-text" placeholder="&nbsp;" id="password">
+        <input type="number" class="input-text" placeholder="&nbsp;" id="password" >
         <span class="label">PIN CODE</span>
         <!-- <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span> -->
       </label>
