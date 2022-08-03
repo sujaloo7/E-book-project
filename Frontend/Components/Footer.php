@@ -231,7 +231,7 @@ display: none;
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="widget company-intro-widget">
-                            <a href="#" class="site-logo"><img src="./images/logo.png"
+                            <a href="#" class="site-logo"><img src="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/logo.png"; ?>."
                                     class=""   alt="logo"></a>
                             <p style="font-size:15px;"> B-6, Rajendra Marg, Maharani Appartment,Bapu Nagar,Jaipur-302015</p>
                             <i class="fa-brands fa-facebook "  style="font-size:25px; color:#3f729b;"></i>&nbsp;&nbsp;

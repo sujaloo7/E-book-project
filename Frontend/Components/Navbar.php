@@ -6,11 +6,37 @@
     <title>Wi-Fi Publictaion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
 
   </head>
   <body>
 
+  
+   
+
   <style>
+     ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#0cc5cd; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#0cc5cd; 
+  }
+  
     /* From uiverse.io by @alexroumi */
 /* From uiverse.io by @satyamchaudharydev */
 .login {
@@ -83,9 +109,9 @@ a:hover
 }
   </style>
 
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm p-3">
+  <nav class="navbar navbar-expand-lg bg-white shadow p-3 sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href=""> <img src="./images/logo.png" height="25" alt="Logo"> </a>
+    <a class="navbar-brand" href=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/Homepage.php"; ?>."> <img src=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/logo.png"; ?>." height="25" alt="Logo"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -115,7 +141,7 @@ a:hover
        
         
       </ul>
-      <a href="./Authentication/login.php" class="text-decoration-none text-light mb-1">
+      <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/Authentication/login.php"; ?>" class="text-decoration-none text-light mb-1">
       <button class=" login p-0 px-4 py-2">
        
     Sign In
