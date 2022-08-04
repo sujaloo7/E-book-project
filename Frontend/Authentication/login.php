@@ -79,7 +79,7 @@
   <body class="r">
     
 <main class="form-signin w-100 m-auto">
-  <form class="col-sm-3 ms-auto me-auto mt-5 p-3 shadow ">
+  <form class="col-sm-3 ms-auto me-auto mt-5 p-3 shadow " action="http://localhost/E-book-project/Frontend/profile.php">
     <div class="ms-5 ">
     <img class="mb-4 mt-5 " src="../images/logo.png" alt="" height="30">
     </div>

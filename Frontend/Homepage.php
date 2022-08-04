@@ -36,7 +36,7 @@
   include("./Components/Navbar.php"); 
   ?>
   
-  <?php include("./components/slider.php") ?>
+
 
   <?php include("./components/demorooms.php") ?>
   <br>
