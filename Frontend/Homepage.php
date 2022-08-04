@@ -35,16 +35,20 @@
   <?php
   include("./Components/Navbar.php"); 
   ?>
+  
   <?php include("./components/slider.php") ?>
 
   <?php include("./components/demorooms.php") ?>
+  <br>
   <?php include("./components/tags.php") ?>
+  <br>
   <?php include("./components/top-test-series.php") ?>
 
 
   <?php
   include("./Components/footer.php"); 
   ?> 
+    
     
 
     

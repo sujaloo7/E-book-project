@@ -3,23 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.98.0">
-    <title>Wi-Fi Publication | Log-In</title>
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <title>Wi-Fi Publication | Forgot Password</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 
-    
+  </head>
+  <body>
 
-    
-
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
+  <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -87,22 +79,20 @@
 
     <div class="form-floating mb-3">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <small class="" style="font-size:12px;">Enter Your Email To Forgot Your Password</small>
       <label for="floatingInput">Email address</label>
     </div>
-    <div class="form-floating mb-3">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
+    
 
-   <div class="d-flex " style="font-size:12px;"><p class="">New To Wi-Fi Publication?&nbsp;</p><a href="./signup.php" class="text-decoration-none" style="color:#0cc5cd;">Sign Up</a> <a href=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/Authentication/forgotpassword.php"; ?>" class="ms-auto text-decoration-none" style="color:#0cc5cd;">Forgot Password?</a> </div>
+   <!-- <div class="d-flex " style="font-size:12px;"><p class="">New To Wi-Fi Publication?&nbsp;</p><a href="./signup.php" class="text-decoration-none" style="color:#0cc5cd;">Sign Up</a> <a href=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/Authentication/forgotpassword.php"; ?>" class="ms-auto text-decoration-none" style="color:#0cc5cd;">Forgot Password?</a> </div> -->
 
 
-    <button class="w-100 btn btn-lg text-light" style="background-color:#0cc5cd;" type="submit">Sign in</button>
+    <button class="w-100 btn btn-lg text-light" style="background-color:#0cc5cd;" type="submit">SEND</button>
     <p class="mt-5 mb-3  text-center " style="color:#0cc5cd;"><i class="fa-solid fa-arrow-left"></i> <a href="http://localhost/E-book-project/Frontend/Homepage.php?" class="text-decoration-none"  style="font-size:12px; color:#0cc5cd;">  Back To Home</a></p>
   </form>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

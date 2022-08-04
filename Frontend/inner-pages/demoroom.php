@@ -265,11 +265,41 @@ a {
     background:#0cc5cd; 
   }
 
+  
+
+
+.title{
+  font-weight:light;
+  margin-top:10px;
+  font-size:24px
+}
+
+.customBtn{
+  border-radius:0px;
+  padding:10px;
+}
+
+form input{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  /* text-align:center; */
+
+}
+.otp
+{
+  background: lightgray;
+  outline:none;
+}
+select{
+  border:none;
+}
   </style>
    
   <div class="container">
   <main class="signup-container">
     <h5 class="heading-primary"> COACHING SIGN UP<span class="span-blue">.</span></h5>
+    <!-- Sign Up And Start Your Free Trail -->
     
         
     <div class="login-wrapper">
@@ -341,6 +371,25 @@ a {
         <!-- <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span> -->
       </label>
       <button class="btn btn-login bg-info">SUBMIT</button>
+
+      <div class="col-md-12 text-center">
+        <div class="row">
+          <div class="col-sm-12 mt-5 bgWhite">
+            <div class="title">
+            <p>Verify OTP</p>
+            </div>
+            
+            <form action="" class="mt-5">
+              <input class="otp border-0 " type="text" maxlength=1 >
+              <input class="otp border-0 " type="text"  maxlength=1 >
+              <input class="otp border-0 " type="text" maxlength=1 >
+              <input class="otp border-0 " type="text"  maxlength=1 >
+            </form>
+            <hr class="mt-4">
+            <button class='btn btn-info bg-info w-50 btn-block mt-4 mb-4 '>Verify</button>
+          </div>
+        </div>
+      </div>
     </form>
    
   </main>
@@ -351,7 +400,23 @@ a {
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script>
+  let digitValidate = function(ele){
+  console.log(ele.value);
+  ele.value = ele.value.replace(/[^0-9]/g,'');
+}
 
+let tabChange = function(val){
+    let ele = document.querySelectorAll('input');
+    if(ele[val-1].value != ''){
+      ele[val].focus()
+    }else if(ele[val-1].value == ''){
+      ele[val-2].focus()
+    }   
+ }
+
+
+</script>
     
   </body>
 </html>

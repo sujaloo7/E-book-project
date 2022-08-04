@@ -107,6 +107,14 @@ a:hover
 {
   color:#0cc5cd;
 }
+ol li a{
+  font-size:11px;
+  margin-bottom: 10px !important;
+}
+ol li img{
+  font-size:11px;
+  margin-bottom: 10px !important;
+}
   </style>
 
   <nav class="navbar navbar-expand-lg bg-white shadow p-3 sticky-top">
@@ -122,7 +130,7 @@ a:hover
           <a class="nav-link" href="#" style="font-weight:bold;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">All Exam</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#">State Exam</a>
+          <a class="nav-link text-dark" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">State Exam</a>
         </li>
         <form action="" class="ms-5">
 
@@ -185,6 +193,74 @@ a:hover
     <a href="" class="text-decoration-none"> <img src="./images/ssc.webp"  height="20"  alt="">Accounting and Commerce</a><br> -->
 
 
+    
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Types Of All State Boards</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ol>
+      <li>
+        <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/boards/cbse.php"; ?>">
+        <img height="30" src="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/cbse.jfif"; ?>" alt="">
+      CENTRAL BOARD OF SECONDARY EDUCATION, NEW DELHI
+      </a>
+
+      </li>
+     
+      <li>
+      <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/boards/nios.php"; ?>">
+        <img height="30" src="https://www.omegaschools.org/wp-content/uploads/2017/11/NIOS.jpg" alt="">
+        NATIONAL INSTITUTE OF OPEN SCHOOLING, NEW DELHI
+      </a>
+      </li>
+
+      <!-- <li>
+      <a href="">
+        <img height="25" src="https://upload.wikimedia.org/wikipedia/en/1/19/CISCE_Logo.gif" alt="">
+        COUNCIL FOR THE INDIAN SCHOOL CERTIFICATE EXAMINATIONS, NEW DELHI
+      </a>
+      </li> -->
+
+      <li>
+      <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/boards/bie.php"; ?>">
+        <img height="30" src="https://pbs.twimg.com/profile_images/1065518279601512448/1Ks8b0Yf_400x400.jpg" alt="">
+        BOARD OF INTERMEDIATE EDUCATION, ANDHRA PRADESH
+      </a>
+      </li>
+
+      <li>
+      <a href="">
+        <img height="30" src="https://i2.wp.com/govinfo.me/wp-content/uploads/2018/03/Board-of-Secondary-Education-Andhra-Pradesh.png?ssl=1" alt="">
+        BOARD OF SECONDARY EDUCATION, ANDHRA PRADESH
+
+
+      </a>
+      </li>
+
+      <li>
+      <a href="">
+        <img height="30" src="https://sebaonline.org/seba_logo_color_small.png" alt="">
+        BOARD OF SECONDARY EDUCATION, ASSAM
+
+
+      </a>
+      </li>
+
+      <li>
+      <a href="">
+        <img height="30" src="https://upload.wikimedia.org/wikipedia/en/a/a4/BSER-Logo.png" alt="">
+        BOARD OF SECONDARY EDUCATION, RAJASTHAN
+            </a>
+      </li>
+
+    
+    </ol>
+    
     
   </div>
 </div>
