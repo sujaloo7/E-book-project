@@ -31,7 +31,7 @@
             </ol>
    
     <p class="text-center">Price:-<span> ₹500</span></p>
-    <button class="btn btn-info px-4 w-100 text-light">BUY</button>
+   <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/checkout.php"; ?>"> <button class="btn btn-info px-4 w-100 text-light">BUY</button></a>
   
 
   </div>

@@ -18,46 +18,23 @@
     }
   </style>
 
-  <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="false">
-  <!-- <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div> -->
+<div id="carouselExampleControls" class="carousel slide carousel-fade   " style="margin-top:-100px;" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/slider2.webp" class="d-block w-100 slider" alt="...">
-      <div class="carousel-caption d-none d-md-block ">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-        <button class="btn border-0 text-light p-3" style="background-color:#0cc5cd;">Get Started For Free</button>
-        <button class="btn border-0 text-light p-3" style="background-color:#000;">Get More Info</button>
-      </div>
+    <div class="carousel-item active" style="height:500px;">
+      <img src=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/slider1.webp"; ?>" class="d-block w-100" alt="" height="" style="height:100%;">
     </div>
-    <div class="carousel-item">
-      <img src="./images/slider1.webp" class="d-block w-100 slider" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-        <button class="btn border-0 text-light p-3" style="background-color:#0cc5cd;">Get Started For Free</button>
-        <button class="btn border-0 text-light p-3" style="background-color:#000;">Get More Info</button>
-      </div>
+    <div class="carousel-item" style="height:500px;">
+      <img src="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/slider2.webp"; ?>" class="d-block w-100"  alt="..."   style="height:100%;">
     </div>
-    <div class="carousel-item">
-      <img src="./images/slider2.webp" class="d-block w-100 slider" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-        <button class="btn border-0 text-light p-3" style="background-color:#0cc5cd;">Get Started For Free</button>
-        <button class="btn border-0 text-light p-3" style="background-color:#000;">Get More Info</button>
-      </div>
+    <div class="carousel-item" style="height:500px;">
+      <img src="<?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/slider3.webp"; ?>" class="d-block w-100"  alt="..."  style="height:100%;">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon "  aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden ">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
