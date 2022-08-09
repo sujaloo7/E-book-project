@@ -295,8 +295,8 @@ display: none;
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="./inner-pages/privacy-policy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

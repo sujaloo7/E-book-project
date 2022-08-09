@@ -18,7 +18,7 @@
     }
   </style>
 
-<div id="carouselExampleControls" class="carousel slide carousel-fade   " style="margin-top:-100px;" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide carousel-fade   "  data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" style="height:500px;">
       <img src=" <?php echo "http://" . $_SERVER['SERVER_NAME'] ."/E-book-project/Frontend/images/slider1.webp"; ?>" class="d-block w-100" alt="" height="" style="height:100%;">
